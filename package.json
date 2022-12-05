@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dynamic-labs/sdk-react": "^0.13.47",
+    "@dynamic-labs/wagmi-connector": "file:../WalletKit/dist/packages/wagmi-connector/dynamic-labs-wagmi-connector-0.0.1.tgz",
     "ethers": "^5.7.2",
     "next": "^13.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "wagmi": "~0.8.2"
+    "wagmi": "^0.8.10"
   },
   "devDependencies": {
     "@types/node": "^17.0.31",
